@@ -1,5 +1,5 @@
-title: ''
-labels: ["question"]
+title: ""
+labels: ["General Introduction"]
 body:
   - type: textarea
     id: improvements
