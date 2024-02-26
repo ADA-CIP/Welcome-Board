@@ -4,7 +4,7 @@ body:
   - type: textarea
     id: question
     attributes:
-      label: My Question
+      label: "My Question"
       description: "Explain what went wrong / what you would like to ask"
       placeholder: "Ask your questions"
       render: bash
@@ -13,7 +13,7 @@ body:
   - type: textarea
     id: what-i-tried
     attributes:
-      label: What have I tried?
-      description: Explain what solutions have you tried yourself, and what happened
+      label: "What have I tried?"
+      description: "Explain what solutions have you tried yourself, and what happened"
     validations:
       required: true
