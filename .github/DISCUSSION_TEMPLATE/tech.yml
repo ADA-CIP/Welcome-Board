@@ -1,19 +1,24 @@
 title: ""
-labels: ["question"]
+labels: ["General Introduction"]
 body:
   - type: textarea
-    id: question
+    id: improvements
     attributes:
-      label: "My Question"
-      description: "Explain what went wrong / what you would like to ask"
-      placeholder: "Ask your questions"
+      label: Top 3 improvements
+      description: "What are the top 3 improvements we could make to this project?"
+      value: 
       render: bash
     validations:
       required: true
-  - type: textarea
-    id: what-i-tried
+  - type: markdown
     attributes:
-      label: "What have I tried?"
-      description: "Explain what solutions have you tried yourself, and what happened"
+      value: |
+        ## Markdown header
+        And some more markdown
+  - type: input
+    id: has-id
+    attributes:
+      label: Suggestions
+      description: A description about suggestions to help you
     validations:
       required: true
