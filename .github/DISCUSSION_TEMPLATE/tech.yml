@@ -9,10 +9,18 @@ body:
     validations:
       required: true
   - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce?
+      description: "How do I recreate the problem"
+      value: 
+    validations:
+      required: true      
+  - type: textarea
     id: what-i-tried
     attributes:
       label: What I tried?
-      description: "What solutions have I tried and what happened?"
+      description: "What solutions have I tried and what happened"
       value: 
     validations:
       required: true
