@@ -10,8 +10,7 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: |
-      "---"  
+      value: "---"  
   - type: textarea
     id: steps-to-reproduce
     attributes:
@@ -22,8 +21,7 @@ body:
       required: true 
   - type: markdown
     attributes:
-      value: |
-      "---"    
+      value: "---"    
   - type: textarea
     id: what-i-tried
     attributes:
