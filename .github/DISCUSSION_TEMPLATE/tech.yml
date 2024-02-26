@@ -2,18 +2,20 @@ title: "[General] "
 labels: ["General Introduction"]
 body:
   - type: textarea
-    id: improvements
+    id: question
     attributes:
-      label: Top 3 improvements
-      description: "What are the top 3 improvements we could make to this project?"
+      label: My Question
+      description: "Ask your questions here"
       value: 
       render: bash
     validations:
       required: true
-  - type: input
-    id: has-id
+  - type: textarea
+    id: what-i-tried
     attributes:
-      label: Suggestions
-      description: A description about suggestions to help you
+      label: What I tried?
+      description: "What solutions have I tried and what happened?"
+      value: 
+      render: bash
     validations:
       required: true
