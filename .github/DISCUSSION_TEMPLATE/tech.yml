@@ -8,6 +8,10 @@ body:
       value: 
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+
   - type: textarea
     id: steps-to-reproduce
     attributes:
@@ -15,7 +19,11 @@ body:
       description: "How do I recreate the problem"
       value: 
     validations:
-      required: true      
+      required: true 
+  - type: markdown
+    attributes:
+      value: |      
+
   - type: textarea
     id: what-i-tried
     attributes:
