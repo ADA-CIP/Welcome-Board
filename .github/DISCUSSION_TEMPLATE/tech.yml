@@ -16,6 +16,11 @@ body:
     attributes:
       label: Steps to Reproduce?
       description: "How do I recreate the problem"
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See '...'
       value: 
     validations:
       required: true 
@@ -30,3 +35,9 @@ body:
       value: 
     validations:
       required: true
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: |
+        Provide any additional information such as logs, screenshots, etc
